@@ -1,5 +1,4 @@
-/* Saknas fortfarande: listprickar, input och knapp under varandra, ingen maxbredd. */
-
+/* Saknas fortfarande: maxbredd, input-row i flex, liststil */
 .app {
   max-width: 28rem;
   margin: 2rem auto;
@@ -12,12 +11,22 @@
   margin-bottom: 1rem;
 }
 
+.input-row input {
+  flex: 1;
+  padding: 0.5rem 0.65rem;
+}
+
 .todo-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .todo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
   padding: 0.65rem 0;
   border-bottom: 1px solid #e2e8f0;
 }
