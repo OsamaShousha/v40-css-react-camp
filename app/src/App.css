@@ -3,6 +3,14 @@
   max-width: 28rem;
   margin: 2rem auto;
   font-family: system-ui, sans-serif;
+  width: 50%;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
 }
 
 .input-row {
@@ -14,6 +22,10 @@
 .input-row input {
   flex: 1;
   padding: 0.5rem 0.65rem;
+}
+
+input:focus {
+  outline: 2px solid;
 }
 
 .todo-list {
@@ -34,4 +46,5 @@
 .completed {
   text-decoration: line-through;
   opacity: 0.6;
+    background-color: lightgray;
 }

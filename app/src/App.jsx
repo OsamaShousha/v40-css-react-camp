@@ -35,7 +35,7 @@ function App() {
 
   return (
     <main className="app">
-      <h1>Min ToDo</h1>
+      <h1  >Min ToDo</h1>
       <form className="input-row" onSubmit={addTodo}>
         <input
           value={text}
